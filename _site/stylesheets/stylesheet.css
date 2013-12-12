@@ -308,12 +308,12 @@ Full-Width Styles
   background: url('../images/newglobe.jpg')  no-repeat ;
   background-position: center top;
   background-size: 1300px;
-  height: 250px;
+  height: 200px;
 
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 30px 10px 30px 10px;
 }
 
 #project_title {
