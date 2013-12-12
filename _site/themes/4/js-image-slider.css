@@ -4,7 +4,7 @@
 #sliderFrame {position:relative;background-color:White;}      
 
 #slider, #slider div.sliderInner {
-    width:960px;height:400px;/* Must be the same size as the slider images */
+    width:1000px;height:375px;/* Must be the same size as the slider images */
 }
 
 #slider 
