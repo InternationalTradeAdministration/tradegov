@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/example.css">
     <link href="themes/4/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://pure.github.io/pure/libs/pure.js"></script>
     <script src="themes/4/js-image-slider.js" type="text/javascript"></script>
     <script type="text/javascript" src="javascripts/tabber.js">
 </script>
@@ -164,7 +166,7 @@ Trade Fair - Morocco </br>
 
 </div>
 
-<div>
+<!--<div>
 <p>
 <h3 class='entry-title'><a href="http://internationaltradeadministration.github.io/dbia/articles-page.html">Featured Opportunities</h3>
 
@@ -215,7 +217,50 @@ President Obama believes that sub-Saharan Africa can be the world’s next major
 <a>Contact Us</a></br>
 
 <a>Major Funded Projects</a></p>
+</div>-->
+
+<div class="articles">
+<dl class="article">
+	<dd class="id"></dd>
+	<dt>Title</dt>
+    <dd class="title"></dd>
+    <dt>Publication Date</dt>
+    <dd class="pub_date"></dd>
+    <dt>Content</dt>
+    <dd class="content"></dd>          
+</dl>
 </div>
+
+<script>
+(function() {
+  var ready, renderData;
+  renderData = function(data) {
+    var articles, article, i, _i, _len, _results;
+    articles = data.results;
+    directive = {
+      '.article': {
+        'article <- articles': {
+          '.title': 'article.title',
+          '.pub_date': 'article.pub_date',
+          '.content': 'article.content',
+        }
+      }
+    };
+    rfn = $p('.articles').compile(directive);
+    return $p('.articles').render({ articles: articles }, directive);
+  };
+
+  ready = function() {
+    var url;
+    url = 'http://api.trade.gov/trade_articles/search?callback=?';
+    return $.getJSON(url, renderData);
+  };
+
+  $(document).ready(ready);
+
+  }).call(this);
+</script>
+
 
       </section>
       
