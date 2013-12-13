@@ -53,7 +53,7 @@ body {
   color:#373737;
   background: #212121;
   font-size: 16px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  font-family: Myriad;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
   color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  font-family: Myriad;
   letter-spacing: -1px;
 }
 
@@ -293,6 +293,8 @@ Full-Width Styles
 }
 
 #forkme_banner {
+  font-family:Myriad;
+  font-size:14px;
   display: block;
   position: absolute;
   top:0;
@@ -395,7 +397,7 @@ nav ul li:first-child{
 border-left:1px solid #fff}
 
 nav a{
-font-family:'Source Sans Pro', sans-serif;
+font-family:Myriad;
 font-size:16px;
 color:#051854;
 font-weight:300;
@@ -424,6 +426,7 @@ nav a:hover{
 
 #main_content {
   padding-top: 40px;
+  font-family:Myriad;
 }
 
 #footer_wrap2 {
