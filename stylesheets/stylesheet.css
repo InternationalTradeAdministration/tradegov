@@ -339,7 +339,7 @@ Full-Width Styles
   width: 350px;
   z-index: 10;
   top: 70px;
-  right: 0;
+  right: -10px;
   height: 0px;
   
 }
