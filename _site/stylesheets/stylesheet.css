@@ -336,12 +336,12 @@ Full-Width Styles
 
 #downloads {
   position: absolute;
-  width: 210px;
-  z-index: 10;
-  bottom: -40px;
+  width: 375px;
+ 
+  top: 70px;
   right: 0;
-  height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
+  height: 0px;
+  
 }
 
 .zip_download_link {
@@ -400,7 +400,7 @@ nav a{
 font-family:Myriad;
 font-size:16px;
 color:#051854;
-font-weight:300;
+font-weight:150;
 text-decoration:none;
 text-transform:uppercase}
 
@@ -417,6 +417,72 @@ nav a:hover{
   text-shadow: #0090ff 0px 0px 2px;
 }
 
+#social {
+
+
+}
+
+#social ul li{
+list-style-type: none;
+
+}
+		#tfheader{
+		background-color:transparent;
+		padding:0px;
+		margin: 0;
+	}
+	#tfnewsearch{
+		float:right;
+		padding:0px;
+		margin: 0;
+		background-color:transparent;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family:Myriad;
+		font-size:12px;
+		
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family:Myriad;
+		font-size:12px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+	
+#altnav {
+
+}
+
+#altnav ul li{
+list-style-type: none;
+display:inline;
+font-size: 14px;
+}
 
 #main_content_wrap {
   background: #f2f2f2;
