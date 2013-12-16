@@ -73,7 +73,7 @@
   </ul>
 </nav>
 
-    <div id="sliderFrame" >
+    <div id="sliderFrame"  >
         <div id="slider" >
             <img src="images/city.jpg" />
             <img src="images/solar.jpg" />
@@ -94,9 +94,6 @@
         <h3>
 <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to International Trade Administration</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-</br>
 <!--<pre><code>$ cd your_repo_root/repo_name
 $ git fetch origin
 $ git checkout gh-pages
@@ -129,8 +126,8 @@ $ git checkout gh-pages
     	<p>
 				
 				ITA provides a growing number of trade events that are targeted to businesses particularly interested in exporting to countries in Africa. Events include trade fairs, trade mission, webinars, and online training sessions. Many of these events are free.
-			</p>
-			<p>
+			</br>
+			
 				<a href="#">Read More &rarr;</a>
 			</p>
 						<h5><a href="#">Kenya Infrastructure Opportunities</a></h5>
@@ -191,9 +188,9 @@ Trade Fair - Morocco </br>
 
 </div>
 
-<!--<div>
+<div>
 <p>
-<h3 class='entry-title'><a href="http://internationaltradeadministration.github.io/dbia/articles-page.html">Featured Opportunities</h3>
+<h3 class='entry-title'><a href="ajsingh273.github.io/tradegov/articles-page.html">Featured Opportunities</h3>
 
 <p>The <a href="http://www.ustda.gov/news/pressreleases/2012/SubSaharanAfrica/SouthAfrica/SouthAfricaCEDFC_FactSheet_112812.pdf">U.S.-Africa Clean Energy Development and Finance Center</a> in Johannesburg, South Africa will open in 2013 to provide the U.S. private sector, as well as our sub-Saharan African partners, with a centralized means to identify and access U.S. government support for clean energy export and investment needs. The Center aims to assist sub-Saharan African energy developers implement clean energy projects while promoting U.S. private sector participation in sub-Saharan Africa's economic development.</p>
 
@@ -242,49 +239,13 @@ President Obama believes that sub-Saharan Africa can be the world’s next major
 <a>Contact Us</a></br>
 
 <a>Major Funded Projects</a></p>
-</div>-->
 
-<div class="articles">
-<dl class="article">
-	<dd class="id"></dd>
-	<dt>Title</dt>
-    <dd class="title"></dd>
-    <dt>Publication Date</dt>
-    <dd class="pub_date"></dd>
-    <dt>Content</dt>
-    <dd class="content"></dd>          
-</dl>
+<h3 class='entry-title'><a href="ajsingh273.github.io/tradegov/min.html">Minneapolis ODO</h3>
+
+
 </div>
 
-<script>
-(function() {
-  var ready, renderData;
-  renderData = function(data) {
-    var articles, article, i, _i, _len, _results;
-    articles = data.results;
-    directive = {
-      '.article': {
-        'article <- articles': {
-          '.title': 'article.title',
-          '.pub_date': 'article.pub_date',
-          '.content': 'article.content',
-        }
-      }
-    };
-    rfn = $p('.articles').compile(directive);
-    return $p('.articles').render({ articles: articles }, directive);
-  };
 
-  ready = function() {
-    var url;
-    url = 'http://api.trade.gov/trade_articles/search?callback=?';
-    return $.getJSON(url, renderData);
-  };
-
-  $(document).ready(ready);
-
-  }).call(this);
-</script>
 
 
       </section>
