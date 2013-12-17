@@ -79,6 +79,36 @@
 
 <p>{{ content }}</p>
 
+<script>
+(function() {
+  var ready, renderData;
+  renderData = function(data) {
+    var articles, article, i, _i, _len, _results;
+    articles = data.results;
+    directive = {
+      '.article': {
+        'article <- articles': {
+          '.title': 'article.title',
+          '.pub_date': 'article.pub_date',
+          '.content': 'article.content',
+        }
+      }
+    };
+    rfn = $p('.articles').compile(directive);
+    return $p('.articles').render({ articles: articles }, directive);
+  };
+
+  ready = function() {
+    var url;
+    url = 'http://api.trade.gov/trade_articles/search?callback=?';
+    return $.getJSON(url, renderData);
+  };
+
+  $(document).ready(ready);
+
+  }).call(this);
+</script>
+
  </section>
       
 

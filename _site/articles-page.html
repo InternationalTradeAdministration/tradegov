@@ -24,7 +24,7 @@
         <header class="inner">
           <a id="forkme_banner" href="http://www.commerce.gov">A bureau within the U.S. Department of Commerce</a>
 
-          <a id="project_title" href="http://trade.gov"><img  src="images/logo.png" width="300px" ></a>
+          <a id="project_title" href="/tradegov/"><img  src="images/logo.png" width="300px" ></a>
 
           <h2 id="project_tagline"></h2>
           
@@ -113,6 +113,36 @@
 <li><a href='https://new.export.gov/community/tags/Africa' rel='tag'>Africa</a></li>
 <li><a href='https://new.export.gov/community/tags/Sub-Saharan%20Africa' rel='tag'>Sub-Saharan Africa</a></li>
 </ul></p>
+
+<script>
+(function() {
+  var ready, renderData;
+  renderData = function(data) {
+    var articles, article, i, _i, _len, _results;
+    articles = data.results;
+    directive = {
+      '.article': {
+        'article <- articles': {
+          '.title': 'article.title',
+          '.pub_date': 'article.pub_date',
+          '.content': 'article.content',
+        }
+      }
+    };
+    rfn = $p('.articles').compile(directive);
+    return $p('.articles').render({ articles: articles }, directive);
+  };
+
+  ready = function() {
+    var url;
+    url = 'http://api.trade.gov/trade_articles/search?callback=?';
+    return $.getJSON(url, renderData);
+  };
+
+  $(document).ready(ready);
+
+  }).call(this);
+</script>
 
  </section>
       
