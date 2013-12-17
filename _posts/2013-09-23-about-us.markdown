@@ -17,11 +17,11 @@ published: true
 
 <ul>
 
-<li>* Promote more U.S. trade with Africa</li>
+<li>Promote more U.S. trade with Africa</li>
 
-<li>* Increase trade financing</li>
+<li>Increase trade financing</li>
 
-<li>* Engage with important stakeholders &ndash; like the United States&rsquo; African Diaspora community &ndash; to ensure they have all the tools needed to do business in the African market.</li>
+<li>Engage with important stakeholders &ndash; like the United States&rsquo; African Diaspora community &ndash; to ensure they have all the tools needed to do business in the African market.</li>
 
 </ul>
 
@@ -29,11 +29,11 @@ published: true
 
 <ul>
 
-<li>* Organizing an Africa Global Business Summit Series so that U.S. companies can hear directly from our Ambassadors in Africa and Senior Commercial Officers about opportunities in the region</li>
+<li>Organizing an Africa Global Business Summit Series so that U.S. companies can hear directly from our Ambassadors in Africa and Senior Commercial Officers about opportunities in the region</li>
 
-<li>* Opening the U.S.-Africa Clean Energy Development and Finance Center in Johannesburg, South Africa in 2013 to help identify and access U.S. government support for clean energy export and investment needs</li>
+<li>Opening the U.S.-Africa Clean Energy Development and Finance Center in Johannesburg, South Africa in 2013 to help identify and access U.S. government support for clean energy export and investment needs</li>
 
-<li>* Developing an Africa Business Portal, providing valuable information about trade assistance programs and financing.</li>
+<li>Developing an Africa Business Portal, providing valuable information about trade assistance programs and financing.</li>
 
 </ul>
 
