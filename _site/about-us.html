@@ -107,6 +107,7 @@
           '.title': 'article.title',
           '.pub_date': 'article.pub_date',
           '.content': 'article.content',
+          
         }
       }
     };
@@ -116,7 +117,7 @@
 
   ready = function() {
     var url;
-    url = 'http://api.trade.gov/trade_articles/search?callback=?';
+    url = 'http://api.trade.gov/trade_articles/search?evergreen=true';
     return $.getJSON(url, renderData);
   };
 

@@ -33,7 +33,8 @@ published: true
     <dt>Publication Date</dt>
     <dd class="pub_date"></dd>
     <dt>Content</dt>
-    <dd class="content"></dd>          
+    <dd class="content"></dd> 
+             
 </dl>
 </div>
 
