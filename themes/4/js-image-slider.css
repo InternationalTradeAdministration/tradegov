@@ -1,7 +1,7 @@
 /* http://www.menucool.com */
 
 /*slider frame*/
-#sliderFrame {position:relative;background-color:#f2f2f2;}      
+#sliderFrame {position:relative;background-color:black;}      
 
 #slider, #slider div.sliderInner {
     width:1000px;height:375px;/* Must be the same size as the slider images */

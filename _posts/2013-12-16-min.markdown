@@ -38,5 +38,97 @@ published: true
 </dl>
 </div>
 
+ <div class="tabber">
+  <div class="tabbertab" title="Trade Events">
+    	<p> The U.S. Commercial Service organizes and supports conferences, seminars, and events to educate our clients and promote international trade. Our goal is to help local U.S. exporters sell globally. A sampling of our events includes:
+    	
+    		<ul>
+
+<li>Executive briefings in our office with one of our visiting Commercial Service Officers from around the world.</li>
+
+<li>Educational export seminars and online webinars.</li>
+
+<li>Matchmaking and export counselling services at international trade shows overseas and the U.S.</li>
+
+</ul>
+			</p>
+				By organizing trade missions and educational seminars; providing matching or export counselling services at trade shows; and recruiting buyer delegations to U.S. trade shows, we help U.S. exporters expand global sales at trade events.
+				</br><a>Read More-></a>
+
+			<h5><a href="#">Selling Software into Brazil</a></h5>
+			<p>Minneapolis, MN</br>12/4/2013 through 12/4/2013
+			</p>
+			<h5><a href="#">Understanding Free Trade Agreements</a></h5>
+			<p>Webinar</br>12/4/2013 through 12/4/2013
+			</p>
+			<h5><a href="#">Private Equity and Venture Capital Certified Trade Mission to Oman and UAE</a></h5>
+			<p>Abu Dhabi, UAE, Muscat, Oman</br>12/10/2013 through 12/11/2013
+			</p>
+			<h5><a href="#">2014 Private Equity and Venture Capital Certified Trade Mission-South</a></h5>
+			<p>Cape Town and Johannesburg, South Africa</br>1/27/2014 through 1/29/2014
+			</p>
+  </div>
 
 
+  <div class="tabbertab" title="FAQs">
+	<p> This is the FAQs tab 
+	</p>
+
+  </div>
+  
+</div>
+
+<h3>Resources</h3>
+
+<h6><a href="#">Exporter's Resource Database</a></h6>
+
+<h6><a href="#">Local Press</a></h6>
+
+<h6><a href="#">Minnesota Testimonials</a></h6>
+
+<h6><a href="#">Informative Webinars</a></h6>
+
+<h6><a href="#">International Finance</a></h6>
+
+<h6><a href="#">Certificate of Origin</a></h6>
+
+<h6><a href="#">NAFTA</a></h6>
+
+<h6><a href="#">MN Tourism Destinations</a></h6>
+
+<h6><a href="#">Internships</a></h6>
+
+<h6><a href="#">Tell Us About You</a></h6>
+
+<h6><a href="#">Contact Us</a></h6>
+
+<h3>Services for U.S. Companies</h3>
+
+<h6>Trade Counselling</h6>
+<h6><a href="#">Planning and Strategy</a></h6>
+<h6><a href="#">Legal and Regulatory Issues</a></h6>
+<h6><a href="#">Documentation and Product Requirements</a></h6>
+<h6><a href="#">Trade Problems</a></h6>
+<h6><a href="#">Trade Finance and Insurance</a></h6>
+
+<h6>Business Matchmaking</h6>
+<h6><a href="#">Contact Lists</a></h6>
+<h6><a href="#">Partner Search</a></h6>
+<h6><a href="#">Personalized Business Matchmaking</a></h6>
+<h6><a href="#">In-Country Promotions</a></h6>
+<h6><a href="#">Trade Missions</a></h6>
+<h6><a href="#">Trade Shows</a></h6>
+
+<h6>Market Intelligence</h6>
+<h6><a href="#">Country and Industry Reports</a></h6>
+<h6><a href="#">Customized Market Research</a></h6>
+<h6><a href="#">Background Reports</a></h6>
+<h6><a href="#">Trade Data and Analysis</a></h6>
+<h6><a href="#">Commercial Diplomacy</a></h6>
+<h6><a href="#">Market Briefings</a></h6>
+
+<h3>Our Global Network at Work</h3>
+
+<h6>Doing Business in Africa-<a href="#">Learn More about the Campaign</a></h6>
+<h6>Sign up for an<a href="#">Upcoming Trade Mission</a></h6>
+<h6>See the list of newly announced<a href="#">2014 International Buyer Program trade shows</a></h6>
