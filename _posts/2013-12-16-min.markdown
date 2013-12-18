@@ -39,7 +39,9 @@ published: true
 </div>
 
  <div class="tabber">
-  <div class="tabbertab" title="Trade Events">
+  <div class="tabbertab" title="Trade Events" style="columns:100px 2;
+-webkit-columns:100px 2; /* Safari and Chrome */
+-moz-columns:100px 2; /* Firefox */">
     	<p> The U.S. Commercial Service organizes and supports conferences, seminars, and events to educate our clients and promote international trade. Our goal is to help local U.S. exporters sell globally. A sampling of our events includes:
     	
     		<ul>
@@ -53,8 +55,8 @@ published: true
 </ul>
 			</p>
 				By organizing trade missions and educational seminars; providing matching or export counselling services at trade shows; and recruiting buyer delegations to U.S. trade shows, we help U.S. exporters expand global sales at trade events.
-				</br><a>Read More-></a>
-
+				</br></br><a>Read More-></a>
+			</br></br></br></br>
 			<h5><a href="#">Selling Software into Brazil</a></h5>
 			<p>Minneapolis, MN</br>12/4/2013 through 12/4/2013
 			</p>
@@ -70,8 +72,8 @@ published: true
   </div>
 
 
-  <div class="tabbertab" title="FAQs">
-	<p> This is the FAQs tab 
+  <div class="tabbertab" title="FAQs" >
+	<p> FAQs 
 	</p>
 
   </div>
