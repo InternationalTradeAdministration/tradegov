@@ -74,7 +74,7 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
 
-<p><h3>U.S. Commercial Service Minneapolis</h3><p>The U.S. Commercial Service in Minnesota is your local federal government office with a global network that provides customized solutions enabling Minnesota companies to sell U.S. made products and services internationally</p><p>Leverage our global network and proven trade expertise to meet your exporting needs. Whether you are looking to make your first export sale or expand to additional markets, we offer the experience and services you need to grow international sales of your U.S. made products and services. In addition to our core service offerings, we offer free consulting to companies.</p><p>Our experienced staff of International Trade Specialists will help you:</p><ul>
+<p><h3>U.S. Commercial Service Minneapolis</h3><p style='float: left; margin: 0 0.833em 0.208em 0;'><img alt='africa coastline' src='http://www.50states.com/flag/image/nunst037.gif' width='125' /></p><p>The U.S. Commercial Service in Minnesota is your local federal government office with a global network that provides customized solutions enabling Minnesota companies to sell U.S. made products and services internationally</p><p>Leverage our global network and proven trade expertise to meet your exporting needs. Whether you are looking to make your first export sale or expand to additional markets, we offer the experience and services you need to grow international sales of your U.S. made products and services. In addition to our core service offerings, we offer free consulting to companies.</p><p>Our experienced staff of International Trade Specialists will help you:</p><ul>
 
 <li>Identify and evaluate international partners</li>
 
@@ -148,6 +148,17 @@ Fax us at: 612-348-1650<br />
 
   </div>
   
+</div><div class='articles'>
+<dl class='article'>
+	<dd class='id' />
+	<dt>Title</dt>
+    <dd class='title' />
+    <dt>Publication Date</dt>
+    <dd class='pub_date' />
+    <dt>Content</dt>
+    <dd class='content' /> 
+             
+</dl>
 </div><table>
 <tr>
 
@@ -230,7 +241,7 @@ Fax us at: 612-348-1650<br />
 
   ready = function() {
     var url;
-    url = 'http://api.trade.gov/trade_articles/search?callback=?';
+    url = 'http://api.trade.gov/trade_articles/search?q=Minneapolis&evergreen=true';
     return $.getJSON(url, renderData);
   };
 

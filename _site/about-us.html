@@ -113,7 +113,7 @@
 
   ready = function() {
     var url;
-    url = 'http://api.trade.gov/trade_articles/search?callback=?';
+    url = 'http://api.trade.gov/trade_articles/search?q=Minneapolis&evergreen=true';
     return $.getJSON(url, renderData);
   };
 
