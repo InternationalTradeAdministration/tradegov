@@ -37,7 +37,7 @@
 </div>    
   	<div id="tfheader">
 		<form id="tfnewsearch" method="get" action="http://trade.gov">
-		        <input type="text" class="tftextinput" name="q" size="22" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		        <input type="text" class="tftextinput" name="q" size="20" maxlength="120"><input type="submit" value="search" class="tfbutton">
 		</form>
 	<div class="tfclear"></div>
 	</div>
@@ -116,7 +116,7 @@
 
   ready = function() {
     var url;
-    url = 'http://api.trade.gov/trade_articles/search?callback=?';
+    url = 'http://api.trade.gov/trade_articles/search?q=China&evergreen=true';
     return $.getJSON(url, renderData);
   };
 

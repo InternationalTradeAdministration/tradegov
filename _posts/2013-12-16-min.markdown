@@ -76,6 +76,19 @@ published: true
 
   </div>
   
+    <div class="tabbertab" title="Office Locations">
+	<p> The Minneapolis Office of the U.S. Commercial Service is located at:</p>
+ 
+<p>100 North 6th Street</br>
+Suite 210-C, Butler Square Building</br>
+Minneapolis, MN 55403</br>
+Call us at: 612-348-1638</br>
+Email us at: Minneapolis Office Box</br>
+Fax us at: 612-348-1650</br>
+	</p>
+
+  </div>
+  
 </div>
 
 <h3>Resources</h3>
@@ -130,5 +143,5 @@ published: true
 <h3>Our Global Network at Work</h3>
 
 <h6>Doing Business in Africa-<a href="#">Learn More about the Campaign</a></h6>
-<h6>Sign up for an<a href="#">Upcoming Trade Mission</a></h6>
-<h6>See the list of newly announced<a href="#">2014 International Buyer Program trade shows</a></h6>
+<h6>Sign up for an <a href="#">Upcoming Trade Mission</a></h6>
+<h6>See the list of newly announced <a href="#">2014 International Buyer Program trade shows</a></h6>
