@@ -75,8 +75,11 @@ published: true
 
 
   <div class="tabbertab" title="FAQs" >
-	<p> FAQs 
-	</p>
+	<p><a>What's the difference between the Schedule B codes (for exports) and the Harmonized Tariff Schedule (HTS) codes (for imports)?</a></p>
+	<p><a>How can I locate importers, distributors, sales reps, etc. in an overseas market?</a></p>
+	<p><a>How can I find export financing?</a></p>
+	<p><a>What do all of these Free Trade Agreements do for me?</a></p>
+	<p><a>How can I determine the tariff rate for my product?</a></p>
 
   </div>
   
