@@ -93,7 +93,10 @@ Fax us at: 612-348-1650</br>
   
 </div>
 
-<h3>Resources</h3>
+<table>
+<tr>
+
+<td><h3>Resources</h3>
 
 <h6><a href="#">Exporter's Resource Database</a></h6>
 
@@ -115,9 +118,9 @@ Fax us at: 612-348-1650</br>
 
 <h6><a href="#">Tell Us About You</a></h6>
 
-<h6><a href="#">Contact Us</a></h6>
+<h6><a href="#">Contact Us</a></h6></td>
 
-<h3>Services for U.S. Companies</h3>
+<td><h3>Services for U.S. Companies</h3>
 
 <h6>Trade Counselling</h6>
 <h6><a href="#">Planning and Strategy</a></h6>
@@ -140,10 +143,13 @@ Fax us at: 612-348-1650</br>
 <h6><a href="#">Background Reports</a></h6>
 <h6><a href="#">Trade Data and Analysis</a></h6>
 <h6><a href="#">Commercial Diplomacy</a></h6>
-<h6><a href="#">Market Briefings</a></h6>
+<h6><a href="#">Market Briefings</a></h6></td>
 
-<h3>Our Global Network at Work</h3>
+<td><h3>Our Global Network at Work</h3>
 
 <h6>Doing Business in Africa-<a href="#">Learn More about the Campaign</a></h6>
 <h6>Sign up for an <a href="#">Upcoming Trade Mission</a></h6>
-<h6>See the list of newly announced <a href="#">2014 International Buyer Program trade shows</a></h6>
+<h6>See the list of newly announced <a href="#">2014 International Buyer Program trade shows</a></h6></td>
+
+</tr>
+</table>
