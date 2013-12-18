@@ -171,7 +171,7 @@ Fax us at: 612-348-1650<br />
 
   ready = function() {
     var url;
-    url = 'http://api.trade.gov/trade_articles/search?q=Minneapolis&evergreen=true';
+    url = 'http://api.trade.gov/trade_articles/search?callback=?';
     return $.getJSON(url, renderData);
   };
 

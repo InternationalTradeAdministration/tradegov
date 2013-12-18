@@ -344,6 +344,19 @@ Full-Width Styles
   
 }
 
+
+#downloads2 {
+  position: absolute;
+  width: 350px;
+  z-index: 10;
+  top: 250px;
+  left: 25px;
+  height: 0px;
+  color:#fff;
+  font-size:24px
+  
+}
+
 .zip_download_link {
   display: block;
   float: right;
