@@ -46,7 +46,7 @@ published: true
 <p class="DefaultParagraph-1" style="font-family: Verdana; font-size: 12px; line-height: 16px; margin-left: 0pt; margin-top: 11px; margin-bottom: 11px;">Healthcare Specialists from U.S. Embassies and Consulates around the world will be at the show and available for one-on-one meetings with U.S. companies exhibiting at and attending the show.</p>
 
 
-<p><a href="/tradegov/arabhealth.html">more…</a></p>
+<p><a href="/tradegov/arab-health.html">more…</a></p>
 
 </div>
 <!-- entry-content -->
