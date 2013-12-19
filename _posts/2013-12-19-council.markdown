@@ -1,0 +1,51 @@
+---
+permalink: "council.html"
+layout: template
+title: "Minnesota District Export Council"
+published: true
+---
+
+
+<h1 ><a>Minnesota District Export Council</a></h1>
+
+<br>
+
+<p>The Minnesota District Export Council is a private, non-profit organization that brings together experienced international business people who provide guidance and assistance in international markets.</p>
+
+<p>Mission: The Minnesota District Export Council encourages and supports:</p>
+
+<ul>
+<li>Exports that strengthen individual companies, stimulate U.S. economic growth, and create jobs;</li>
+
+<li>Export expansion activities by working with the US &amp; FCS domestic offices; and</li>
+
+<li>Opportunities to promote greater export activity at the local level by developing a trade assistance network.</li>
+
+</ul>
+
+
+</br>
+
+<p>Through</p>
+
+<ul>
+<li>Counseling of local businesses;</li>
+
+<li>Identifying export financing sources for businesses;</li>
+
+<li>Creating greater export awareness in their local business communities;</li>
+
+<li>Identifying issues that affect export trade and implementation of constructive suggestions or improvement;</li>
+
+<li>Supporting programs and services of US &amp; FCS domestic offices;</li>
+
+<li>Building local export assistance partnerships with other organizations; and</li>
+
+<li>Promoting international education at the community level</li>
+
+</ul>
+<p>Contact the <a>Minnesota District Export Council</a>.</p>
+
+<ul >
+<li><a>Minnesota</a></li>
+</ul>
